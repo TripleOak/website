@@ -20,7 +20,7 @@ const PrivacyPolicy: NextPage = () => {
           The person responsible for processing the data collected on this page is:<br />
           TRIPLEOAK, LDA<br />
           Rua da Telecom, nº 8, 1º B | 7540-181 Santiago do Cacém<br />
-          T. 269 030 096 | E. dpo.rgpd@tripleoak.pt
+          T. 269 030 096 | E. dpo.rgpd@tripleoak.vc
         </p>
 
         <h3 className='text-xl font-normal mt-8'>Security and Confidentiality</h3>
