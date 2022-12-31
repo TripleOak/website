@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { Disclosure } from '@headlessui/react'
 import { XMarkIcon, Bars3Icon } from '@heroicons/react/20/solid'
@@ -13,7 +14,7 @@ export default function Header() {
           <>
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
               <Link href="/">
-                <img src="/logo.png" className="mr-3 h-12 sm:h-14" />
+                <Image src="/logo.png" className="mr-3 h-12 sm:h-14" alt='logo' />
               </Link>
 
               <div className="flex items-start sm:order-2 sm:hidden">
