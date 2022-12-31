@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 
 const Team: NextPage = () => {
   return (
@@ -11,7 +10,7 @@ const Team: NextPage = () => {
 
       <div className='md:flex w-3/4 min-h-[calc(100vh-18rem)] mx-auto'>
         <div className='w-full md:w-1/2'>
-          <Image src="/team/joao_carvalho.png" className="rounded-full w-32 h-32 mx-auto" alt="Joao Carvalho" />
+          <img src="/team/joao_carvalho.png" className="rounded-full w-32 h-32 mx-auto" />
           <h3 className='text-center mt-4'>João Carvalho</h3>
           <p className='text-center text-gray-500'>Co-Founder & Managing Partner</p>
           <div className='flex justify-center mt-4'>
@@ -33,7 +32,7 @@ const Team: NextPage = () => {
           </div>
         </div>
         <div className='w-full md:w-1/2 mt-12 md:mt-0'>
-          <Image src="/team/ricardo_carvalho.jpeg" className="rounded-full w-32 h-32 mx-auto" alt='Ricardo Carvalho' />
+          <img src="/team/ricardo_carvalho.jpeg" className="rounded-full w-32 h-32 mx-auto" />
           <h3 className='text-center mt-4'>Ricardo Carvalho</h3>
           <p className='text-center text-gray-500'>Co-Founder & Managing Partner</p>
           <div className='flex justify-center mt-4'>

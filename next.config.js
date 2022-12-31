@@ -5,7 +5,7 @@ const nextConfig = {
   exportTrailingSlash: true,
   images: {
     loader: 'akamai',
-    path: '.',
+    path: '',
   },
 }
 
