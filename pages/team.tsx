@@ -11,7 +11,7 @@ const Team: NextPage = () => {
       <div className='md:flex w-3/4 min-h-[calc(100vh-18rem)] mx-auto'>
         <div className='w-full md:w-1/2'>
           <img src="/team/joao_carvalho.png" className="rounded-full w-32 h-32 mx-auto" />
-          <h3 className='text-center mt-4'>João Carvalho</h3>
+          <h3 className='text-center mt-4'>Jay Oak</h3>
           <p className='text-center text-gray-500'>Co-Founder & Managing Partner</p>
           <div className='flex justify-center mt-4'>
             <a href="https://www.linkedin.com/in/jpldcarvalho" target="_blank" rel="noreferrer" className='text-gray-500 hover:text-gray-900'>
